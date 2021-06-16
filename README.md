@@ -11,17 +11,17 @@ Para instanciar um dynamoDb local precisamos dos seguintes passos:
 
 * Para criar as tabelas:
     * Faça a configuração do AWS CLI (pode utilizar dados fake) a partir de um terminal utilizando o seguinte comando:
-      ```bash
+     * ```bash
          aws configure
          ```
 
 * Acessar a pasta do projeto usando o mesmo CMD ou GIT BASH acima, e executar o seguinte comando: 
-      ```bash
+    *  ```bash
          aws dynamodb create-table --cli-input-json file://tabelas/Funcionario.json --endpoint-url http://localhost:8000
          ```
          
 * Para listar as tabelas criadas:
-      ```bash
+     * ```bash
          aws dynamodb list-tables --endpoint-url http://localhost:8000
          ```
           

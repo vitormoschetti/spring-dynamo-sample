@@ -2,7 +2,7 @@
  
 Para instanciar um dynamoDb local precisamos dos seguintes passos:
 
-* baixar um zip disponível pela própria AWS no seguinte link - [dynamoDB-download](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html)
+* baixar um zip disponível pela própria AWS no seguinte link - [dynamoDB-download](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html)
 * Descompactar o zip.
 * Através do CMD, acessar a pasta onde foi descompactada o zip e executar o seguinte comando para iniciar o dynamoDb:
     * ```bash

@@ -25,7 +25,7 @@ Para instanciar um dynamoDb local precisamos dos seguintes passos:
          aws dynamodb list-tables --endpoint-url http://localhost:8000
          ```
           
-* Para listar as tabelas criadas:
+* Para deletar a tabela criada:
      * ```bash
           aws dynamodb delete-table --table-name NAME --endpoint-url http://localhost:8000
          ```

@@ -1,6 +1,6 @@
 ## Para rodar Amazon DynamoDB localmente
  
-Para instanciar um dynamoDB local precisamos é necessário seguir os passos:
+Para instanciar um Amazon dynamoDB local é necessário seguir os passos:
 
 * baixar um zip disponível pela própria AWS no seguinte link - [dynamoDB-download](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html)
 * Descompactar o zip.

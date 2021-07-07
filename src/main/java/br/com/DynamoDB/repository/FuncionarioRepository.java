@@ -31,11 +31,8 @@ public class FuncionarioRepository {
 
     public String update(String funcionarioId, Funcionario funcionario) {
         dynamoDBMapper.save(funcionario,
-                new DynamoDBSaveExpression()
-                        .withExpectedEntry("funcionarioId",
-                                new ExpectedAttributeValue(
-                                        new AttributeValue().withS(funcionarioId)
-                                )));
+                new DynamoDBSaveExpression().withExpectedEntry("funcionarioId",
+                        new ExpectedAttributeValue(new AttributeValue().withS(funcionarioId))));
         return funcionarioId;
     }
 

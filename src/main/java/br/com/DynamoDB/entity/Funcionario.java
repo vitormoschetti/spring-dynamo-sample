@@ -20,7 +20,7 @@ public class Funcionario {
     @DynamoDBAttribute
     private String nome;
 
-    @DynamoDBAttribute(attributeName = "departamento")
+    @DynamoDBAttribute
     @DynamoDBTypeConvertedJson(targetType = Departamento.class)
     private Departamento departamento;
 
